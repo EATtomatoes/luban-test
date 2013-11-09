@@ -1,2 +1,33 @@
-luban-test
+LUBAN 3D 打印机主控专用测试程序
 ==========
+
+
+<h3>测试X、Y、Z 步进电机</h3>
+串口监视器输入H2000
+
+<h3>测试T0|T1|T2|T3</h3>
+
+T0: A0
+T1: A1
+T2: A2
+T3: A7
+
+<h3>测试 Endstop</h3>
+<h5>首先连接6组限位开关，依次输入下面的命令，按下限位开关返回0, 抬起限位开关返回1</h5>
+Z-MIN: R10
+Y-MIN: R11
+Z-MIN: R12
+
+Z-MAX: R30
+Y-MAX: R23
+X-MAX: R24
+
+
+<h3>测试加热管、风扇、热床 PWM</h3>
+<h5>PWM 可用数值：D0~D255</h5>
+<ul>
+<li>Heat 0: P9D10</li>
+<li>Fan  0: P8D100</li>
+<li>Heat 1: P7D10</li>
+<li>Fan  1: P6D100</li>
+<li>Bed  1: P3D10</li>
