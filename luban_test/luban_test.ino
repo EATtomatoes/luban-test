@@ -3,7 +3,7 @@
 #include "rambo.h"
 #include <SPI.h>
 
-#define DEBUG 0 //send debug info over serial about what we are doing
+#define DEBUG 1 //send debug info over serial about what we are doing
 #define DEBOUNCE 2
 
 #if DEBUG == 0
