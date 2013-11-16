@@ -37,3 +37,4 @@ X-MAX: R24
 <li>Heat 1: P7D10</li>
 <li>Fan  1: P6D100</li>
 <li>Bed  1: P3D10</li>
+<li>全部测试: P9D10 P8D100 P7D10 P6D100 P3D10</li>
